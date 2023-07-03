@@ -1,6 +1,7 @@
 package lesson3;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 public class StringMethods2 {
     public static void main(String[] args) {
@@ -87,7 +88,7 @@ public class StringMethods2 {
         System.out.println(resultX);
 
         //split разбивает строку по указонному символу, либо по нескольким символам
-        String textForSplit = "split разбивает строку по указонному символу, либо по нескольким символам";
+        String textForSplit = "split разбивает строку по Указонному символу, либо по нескольким символам";
         System.out.println(textForSplit.split("\\s")[5]);
         System.out.println(textForSplit.split("\\s").length);
         System.out.println("==================");
@@ -97,6 +98,9 @@ public class StringMethods2 {
         String[] arrayOfWords = textForSplit.split("\\s");
         System.out.println(Arrays.toString(arrayOfWords));
 
+
+        System.out.println(textForSplit.toUpperCase());
+        System.out.println(textForSplit.toLowerCase());
 
 
 
