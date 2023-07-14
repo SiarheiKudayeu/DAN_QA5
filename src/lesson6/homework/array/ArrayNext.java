@@ -13,7 +13,7 @@ public class ArrayNext {
         for (int i = 0; i < strings.length; i++) {
             System.out.print(strings[i] + " ");
         }*/
-
+/*
         Random random = new Random();
         int randomInt = random.nextInt(-20, 20);
         System.out.println(randomInt);
@@ -24,7 +24,7 @@ public class ArrayNext {
         for (int i = 0; i < array.length; i++){
             array[i] = random.nextInt(-13, 25);
             System.out.print(array[i] + " ");
-        }
+        }*/
 
     }
 }

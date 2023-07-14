@@ -7,7 +7,7 @@ public class ForEachEx {
         int[] array = new int[10];
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(-10, 10);
+            //array[i] = random.nextInt(-10, 10);
         }
 
         for(int number: array){
